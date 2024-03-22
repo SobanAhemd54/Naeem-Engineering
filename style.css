@@ -1,0 +1,290 @@
+
+body{
+    background-color:  rgb(31 41 55) !important;
+    font-family: "Times New Roman", Times, serif !important; 
+}
+.sliderbgcolors{
+  background-color:  rgb(17 24 39) !important;
+  margin-top: 20px !important;
+  padding: 10px !important;
+
+}
+.logobg{
+  background-color:  rgb(17 24 39) !important;
+  margin-top: 30px !important;
+}
+.marqueebg{
+  background-color: rgb(17 24 39) !important;
+  font-style: italic !important;
+}
+.bgcolors{
+  background-color: rgb(17 24 39) !important;
+}
+section{
+  background-color: rgb(17 24 39) !important;
+}
+.bgcolors h1{
+  color: white !important;
+}
+ol li {
+  margin-top: 10px !important;
+}
+.card div h5 , p , button{
+  text-align: center !important;
+}
+img{
+  padding-bottom: 10px !important;
+}
+h1{
+  color: white !important;;
+}
+marquee{
+  background-color: rgb(17 24 39) !important;
+  padding: 10px !important;
+  margin-top: 0px !important;
+  font-style: italic !important;
+  
+}
+h4{
+  color: white !important;
+}
+.card{
+  background-color: white !important;
+}
+.nav {
+    background-color: black;
+    color: white !important;
+}
+.navbar {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 1000 !important;
+}
+
+.navdiv1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: inherit;
+    width: 100%;
+}
+/* links css start */
+.linkshover{
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+}
+.linkshover:hover{
+    background-color: white !important;
+    color: black !important;
+   
+    border-radius: 5px;
+    transition: 0.6s linear;
+}
+/* links css end */
+/* logo css  strat*/
+.logomain{
+    width: 5%;
+    height: 5%;
+}
+.logo{
+    width: 100%;
+}
+@media screen and (max-width: 792px) {
+    .logo {
+        width: 150%; /* Adjusted to 100% */
+    }   
+}
+@media screen and (max-width: 582px) {
+    .logo {
+        width: 250%; 
+    }   
+}
+@media screen and (max-width: 260px) {
+    .logo {
+        width: 450%; /* Adjusted to 100% */
+    }   
+}
+/* logo css  end*/
+/* Slider Start */
+.carousel-item img {
+    max-height: 540px; 
+    width: 100% !important;
+   
+}
+/* Slider End */
+/* Section 1  start*/
+.machines-name{
+    text-align: center !important;
+    font-size: 50px !important;
+    font-weight: bold !important;
+    margin-bottom: 40px !important;
+}
+
+.button-73 {
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    /* font-size: ; */
+    /* font-weight: 700; */
+    margin: 0;
+    outline: none;
+    /* padding: 1rem 1.3rem; */
+    padding: 5px;
+    border: 1px solid black;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-73:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .button-73:active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .button-73 {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+    }
+  }
+  .btna{
+    text-decoration: none;
+    color: #000000;
+  }
+/* Section 1  End*/
+/* juki btn css */
+  .btndiv{
+    display: flex !important;
+    justify-content: left !important; 
+  }
+  .btndiv a {
+    text-decoration: none !important;
+    font-size: 40px !important;
+    color: black !important;
+  }
+
+/* contact css */
+.contactdiv{
+  text-align: left !important;
+}
+#para{
+  margin-top:10px; 
+   color: white !important;
+   cursor: pointer !important;
+    text-align: left !important;
+    font-size: 30px !important;
+}
+/* faqs start */
+.faq {
+  /* margin: 20px; */
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.faq h3 {
+  cursor: pointer;
+  color: white !important;
+  padding: 10px !important;
+}
+
+.faq p {
+  display: none;
+  color: white !important;
+  font-size: 20px !important;
+
+}
+
+.faq i {
+  float: right;
+  margin-top: -5px;
+}
+/* footer css */
+#para1{
+  text-align: left !important;
+}
+footer a{
+   text-decoration: underline !important;  
+}
+footer{
+  cursor: pointer !important;
+  background-color: black !important;
+}
+
+
+.moon-container {
+  position: relative;
+}
+
+.half-moon {
+  width: 200px;
+  height: 100px; /* Half the height of the full moon */
+  background-color: #f0e6dc; /* Default light mode moon color */
+  border-radius: 100px 100px 0 0; /* Adjust border radius to create half moon shape */
+  position: relative;
+  overflow: hidden;
+}
+
+.half-moon:before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px; /* Size of the full moon */
+  background-color: #fff; /* Default light mode shadow color */
+  border-radius: 50%;
+  top: -50px;
+  left: 50px;
+}
+.card:hover{
+  opacity: 0.9 !important;
+}
+nav .active{
+    border-bottom: 2px solid white !important;
+    color: blue !important;
+}
+/* form css */
+label{
+  color: white !important;
+}
+#contactForm {
+  max-width: 400px;
+  margin: 0 auto;
+}
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+textarea {
+  height: 150px;
+}
+/* Style the input fields with background images */
+#username {
+  background-image: url('form/Username.png');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px; /* Adjust padding to make space for the icon */
+}
+#email {
+  background-image: url('form/Email.jpg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px; /* Adjust padding to make space for the icon */
+}
